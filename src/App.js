@@ -5,6 +5,8 @@ import MovieCard from './MovieCard';
 
 const MOVIE_API_URL = 'https://www.omdbapi.com?apikey=2b239ad4'
 
+//testing push
+
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
